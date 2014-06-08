@@ -7,51 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B50FAC0A1944B93600A2DB26 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B50FAC091944B93600A2DB26 /* background.jpg */; };
 		B52E26371944B53800E477BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52E26361944B53800E477BE /* AppDelegate.swift */; };
 		B52E26391944B53800E477BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52E26381944B53800E477BE /* ViewController.swift */; };
 		B52E263C1944B53800E477BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B52E263A1944B53800E477BE /* Main.storyboard */; };
 		B52E263E1944B53800E477BE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B52E263D1944B53800E477BE /* Images.xcassets */; };
-		B52E264A1944B53800E477BE /* BlurAndVibrancyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52E26491944B53800E477BE /* BlurAndVibrancyTests.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		B50FAC051944B65100A2DB26 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B52E26291944B53800E477BE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B52E26301944B53800E477BE;
-			remoteInfo = BlurAndVibrancy;
-		};
-		B52E26441944B53800E477BE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B52E26291944B53800E477BE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B52E26301944B53800E477BE;
-			remoteInfo = BlurAndVibrancy;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		B50FAC091944B93600A2DB26 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
 		B52E26311944B53800E477BE /* BlurAndVibrancy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlurAndVibrancy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B52E26351944B53800E477BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B52E26361944B53800E477BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B52E26381944B53800E477BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B52E263B1944B53800E477BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B52E263D1944B53800E477BE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		B52E26431944B53800E477BE /* BlurAndVibrancyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlurAndVibrancyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B52E26481944B53800E477BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B52E26491944B53800E477BE /* BlurAndVibrancyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurAndVibrancyTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		B52E262E1944B53800E477BE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B52E26401944B53800E477BE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -65,7 +39,6 @@
 			isa = PBXGroup;
 			children = (
 				B52E26331944B53800E477BE /* BlurAndVibrancy */,
-				B52E26461944B53800E477BE /* BlurAndVibrancyTests */,
 				B52E26321944B53800E477BE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -74,7 +47,6 @@
 			isa = PBXGroup;
 			children = (
 				B52E26311944B53800E477BE /* BlurAndVibrancy.app */,
-				B52E26431944B53800E477BE /* BlurAndVibrancyTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -85,6 +57,7 @@
 				B52E26361944B53800E477BE /* AppDelegate.swift */,
 				B52E26381944B53800E477BE /* ViewController.swift */,
 				B52E263A1944B53800E477BE /* Main.storyboard */,
+				B50FAC091944B93600A2DB26 /* background.jpg */,
 				B52E263D1944B53800E477BE /* Images.xcassets */,
 				B52E26341944B53800E477BE /* Supporting Files */,
 			);
@@ -95,23 +68,6 @@
 			isa = PBXGroup;
 			children = (
 				B52E26351944B53800E477BE /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		B52E26461944B53800E477BE /* BlurAndVibrancyTests */ = {
-			isa = PBXGroup;
-			children = (
-				B52E26491944B53800E477BE /* BlurAndVibrancyTests.swift */,
-				B52E26471944B53800E477BE /* Supporting Files */,
-			);
-			path = BlurAndVibrancyTests;
-			sourceTree = "<group>";
-		};
-		B52E26471944B53800E477BE /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				B52E26481944B53800E477BE /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -136,25 +92,6 @@
 			productReference = B52E26311944B53800E477BE /* BlurAndVibrancy.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B52E26421944B53800E477BE /* BlurAndVibrancyTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B52E26501944B53800E477BE /* Build configuration list for PBXNativeTarget "BlurAndVibrancyTests" */;
-			buildPhases = (
-				B52E263F1944B53800E477BE /* Sources */,
-				B52E26401944B53800E477BE /* Frameworks */,
-				B52E26411944B53800E477BE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B52E26451944B53800E477BE /* PBXTargetDependency */,
-				B50FAC061944B65100A2DB26 /* PBXTargetDependency */,
-			);
-			name = BlurAndVibrancyTests;
-			productName = BlurAndVibrancyTests;
-			productReference = B52E26431944B53800E477BE /* BlurAndVibrancyTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -166,10 +103,6 @@
 				TargetAttributes = {
 					B52E26301944B53800E477BE = {
 						CreatedOnToolsVersion = 6.0;
-					};
-					B52E26421944B53800E477BE = {
-						CreatedOnToolsVersion = 6.0;
-						TestTargetID = B52E26301944B53800E477BE;
 					};
 				};
 			};
@@ -187,7 +120,6 @@
 			projectRoot = "";
 			targets = (
 				B52E26301944B53800E477BE /* BlurAndVibrancy */,
-				B52E26421944B53800E477BE /* BlurAndVibrancyTests */,
 			);
 		};
 /* End PBXProject section */
@@ -197,15 +129,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B50FAC0A1944B93600A2DB26 /* background.jpg in Resources */,
 				B52E263C1944B53800E477BE /* Main.storyboard in Resources */,
 				B52E263E1944B53800E477BE /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B52E26411944B53800E477BE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,28 +147,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B52E263F1944B53800E477BE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B52E264A1944B53800E477BE /* BlurAndVibrancyTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		B50FAC061944B65100A2DB26 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B52E26301944B53800E477BE /* BlurAndVibrancy */;
-			targetProxy = B50FAC051944B65100A2DB26 /* PBXContainerItemProxy */;
-		};
-		B52E26451944B53800E477BE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B52E26301944B53800E477BE /* BlurAndVibrancy */;
-			targetProxy = B52E26441944B53800E477BE /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		B52E263A1944B53800E477BE /* Main.storyboard */ = {
@@ -355,42 +260,6 @@
 			};
 			name = Release;
 		};
-		B52E26511944B53800E477BE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BlurAndVibrancy.app/BlurAndVibrancy";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = BlurAndVibrancyTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				METAL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-			};
-			name = Debug;
-		};
-		B52E26521944B53800E477BE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BlurAndVibrancy.app/BlurAndVibrancy";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = BlurAndVibrancyTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				METAL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -408,15 +277,6 @@
 			buildConfigurations = (
 				B52E264E1944B53800E477BE /* Debug */,
 				B52E264F1944B53800E477BE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B52E26501944B53800E477BE /* Build configuration list for PBXNativeTarget "BlurAndVibrancyTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B52E26511944B53800E477BE /* Debug */,
-				B52E26521944B53800E477BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
