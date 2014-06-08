@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6154.17" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6153.11"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="BlurAndVibrancy" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" image="background.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ito-UJ-e1L">
+                                <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AU5-TT-KnK">
+                                <rect key="frame" x="200" y="392" width="80" height="44"/>
+                                <color key="backgroundColor" white="1" alpha="0.75" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="TcO-gH-WBx"/>
+                                    <constraint firstAttribute="height" constant="44" id="zdP-9d-aqS"/>
+                                </constraints>
+                                <state key="normal" title="Test">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="didTapTest:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="XTx-DR-1yL"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ito-UJ-e1L" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="6gy-xA-sG0"/>
+                            <constraint firstAttribute="trailing" secondItem="ito-UJ-e1L" secondAttribute="trailing" id="9Gc-12-pOb"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="ito-UJ-e1L" secondAttribute="bottom" id="Wf5-5N-GYR"/>
+                            <constraint firstAttribute="centerX" secondItem="AU5-TT-KnK" secondAttribute="centerX" id="jz1-4m-PmS"/>
+                            <constraint firstItem="ito-UJ-e1L" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="ovl-22-Pbx"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="AU5-TT-KnK" secondAttribute="bottom" constant="44" id="xKw-ZM-fwY"/>
+                        </constraints>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="background.jpg" width="1515" height="1136"/>
+    </resources>
+</document>
